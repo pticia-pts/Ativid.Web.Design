@@ -1,0 +1,47 @@
+*{
+    text-align: center;
+}
+#logo{
+    width: 120px;
+}
+#banner{
+    border: 2px;
+    border-color:#F6C43F ;
+    border-style: solid;
+    width:100%;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    text-align: right;
+    justify-content: end;
+
+}
+section ul {
+    list-style-type:none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    border: 1px;
+    margin: 25px;
+}
+p{
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+#Chefe{
+    border-color: #F9F1DC;
+    border-width: 3px;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+h2{
+    font-family: "Georgia", Times New Roman, Times, serif;
+    font-size: 25px;
+}
+footer{
+    font-family: "Georgia", Times New Roman, Times, serif;
+    font-size: 15px;
+}
